@@ -1,0 +1,62 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+}
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.list-group-item h3,
+.list-group-item p {
+    color: white; 
+}
+
+.list-group-item h3 {
+    font-weight: bold;
+}
+
+.list-group-item p {
+    font-style: italic;
+}
+
+.offcanvas-body {
+    font-size: 1.2rem; 
+}
+
+.offcanvas-title {
+    font-size: 2rem;  
+}
+
+#generosPelicula {
+    color: gray; 
+    font-style: italic; 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+
